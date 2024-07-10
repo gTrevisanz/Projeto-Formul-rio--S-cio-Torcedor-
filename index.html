@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sócio Torcedor</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="bayon-regular"> Cadastre-se !! </h1>
+
+        <label>Nome:</label>
+        <input type="text" id='nome'>
+
+        <label for="dtnasc">Data de Nascimento:</label>
+        <input type='date' id="dtnasc" >
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" >
+
+        <div class="senha">
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+
+        </div>
+
+        <fieldset>
+
+            <legend>Gênero:</legend>
+
+            <div class="sexo">
+
+                <input type="radio" name="sexo" value=" Masculino" />
+                <label for="sexo-m"> Masculino </label>
+
+                <input type="radio" name="sexo" value="Feminino" />
+                <label for="sexo-f"> Feminino </label>
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Jogador Favorito: </legend>
+
+            <div class="Jogadores">
+
+            <input  type="checkbox" class="Jogador" name="JogadoR" value="Belligham">
+                <label for="Belligham">Belligham</label>
+
+                <input type="checkbox" class="Jogador" name="JogadoR" value="Vini Jr">
+                <label for="Vini Jr">Vini Jr</label>
+
+                <input type="checkbox" class="Jogador" name="JogadoR" value="Carvajal"> 
+                <label for="Carvajal">Carvajal</label>
+
+            </div>
+
+        </fieldset>
+
+        <button onclick="Enviar()">Enviar</button>
+
+        <img src="Imagem/real madrid (3).png" class="escudo2">
+        <img src="Imagem/real madrid (3).png" class="escudo">
+        <img src="Imagem/real madrid (4).png" class="torcida" alt="">
+
+    </div>
+    <script src="formulario.js"></script>
+
+</body>
+
+</html>
